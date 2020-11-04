@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		07133D5125505792008CAD9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07133D5025505792008CAD9C /* AppDelegate.swift */; };
 		07133D5325505792008CAD9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07133D5225505792008CAD9C /* SceneDelegate.swift */; };
-		07133D5525505792008CAD9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07133D5425505792008CAD9C /* ViewController.swift */; };
 		07133D5825505792008CAD9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07133D5625505792008CAD9C /* Main.storyboard */; };
 		07133D5A25505793008CAD9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07133D5925505793008CAD9C /* Assets.xcassets */; };
 		07133D5D25505793008CAD9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07133D5B25505793008CAD9C /* LaunchScreen.storyboard */; };
+		07133D6725505800008CAD9C /* FruitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07133D6625505800008CAD9C /* FruitTableViewController.swift */; };
+		07133D6A25505CB1008CAD9C /* FruitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07133D6925505CB1008CAD9C /* FruitTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07133D4D25505792008CAD9C /* 410721301.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 410721301.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07133D5025505792008CAD9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07133D5225505792008CAD9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		07133D5425505792008CAD9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07133D5725505792008CAD9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07133D5925505793008CAD9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07133D5C25505793008CAD9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07133D5E25505793008CAD9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07133D6625505800008CAD9C /* FruitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewController.swift; sourceTree = "<group>"; };
+		07133D6925505CB1008CAD9C /* FruitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				07133D5025505792008CAD9C /* AppDelegate.swift */,
 				07133D5225505792008CAD9C /* SceneDelegate.swift */,
-				07133D5425505792008CAD9C /* ViewController.swift */,
 				07133D5625505792008CAD9C /* Main.storyboard */,
 				07133D5925505793008CAD9C /* Assets.xcassets */,
 				07133D5B25505793008CAD9C /* LaunchScreen.storyboard */,
 				07133D5E25505793008CAD9C /* Info.plist */,
+				07133D6625505800008CAD9C /* FruitTableViewController.swift */,
+				07133D6925505CB1008CAD9C /* FruitTableViewCell.swift */,
 			);
 			path = 410721301;
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07133D5525505792008CAD9C /* ViewController.swift in Sources */,
+				07133D6A25505CB1008CAD9C /* FruitTableViewCell.swift in Sources */,
 				07133D5125505792008CAD9C /* AppDelegate.swift in Sources */,
+				07133D6725505800008CAD9C /* FruitTableViewController.swift in Sources */,
 				07133D5325505792008CAD9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
